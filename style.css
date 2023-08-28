@@ -3,12 +3,15 @@
 }
 .navbor{
     font-family: crimson;
-    background-color: rgba(236, 118, 181, 1);
+    background-color: rgba(236, 118, 181, 1)    ;
     height: 200px;
     align-content: center;
     padding-right: 15px;
     padding-left: 20px;
-    padding-bottom: 20px;
+}
+.navbor ul{
+    text-align: right;
+    padding-right: 40px;
 }
 .one{
     display: flex;
@@ -26,9 +29,10 @@ li a{
     font-size: 20px;
     font-weight: bold;
     margin-right: 40px;
+    text-align: center;
 }
 button{
-    color:rgba(255, 255, 255, 0.84);
+    color:rgba(236, 118, 181, 1);
     border-radius: 12px;
     width: 100px;
     padding:10px;
@@ -42,13 +46,41 @@ button a{
 p.h{
     font-style: italic;
     font-weight: bold;
-    font-size: 30px ;
+    font-size: 40px ;
     text-align: center;
 }
 p.g{
     font-style: oblique;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 24px;
     text-align: right;
     padding-right: 70px;
+}
+.navbor a:hover{
+    background: white;
+    border-radius: 5px;
+}
+.two{ 
+    height: 395px;
+    width: 440px;
+    float:left;
+}
+.three{
+    height:200px;
+    width:346px;
+    float:left;
+}
+button.sec{
+    width:240px;
+    background-color: rgba(236, 118, 181, 1);
+    float: right;
+}
+button.third{
+    width:240px;
+    background-color: rgba(236, 118, 181, 1);
+    float:right;
+}
+.well a:hover{
+    background: black;
+    border-radius: 5px; 
 }
