@@ -1,8 +1,12 @@
-body {
-  /* margin: 0; */
-  background: linear-gradient(to bottom, #f778be, #ece6dc);
-  height: 100%;
+.navbor {
   margin: 0;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background: linear-gradient(to bottom, #f778be, #ece6dc);
+}
+.symbol {
+  width: 346px;
+  height: 200px;
+}
+.login {
+  height: 430px;
+  width: 440px;
 }
